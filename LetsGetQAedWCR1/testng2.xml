@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" preserve-order="true" parallel="tests">
+
+	<!-- <listeners>
+  <listener class-name="com.test.automation.VerizonDigitalSignage.Utilities.ListenerClass"/>
+  </listeners> -->
+  
+  <test thread-count="5" name="Test">
+  <parameter name="browser" value="chrome"/>
+   
+    <classes>
+<class name="com.test.automation.LetGetQAed.TestCases.YammerTest"/>
+      	 <class name="com.test.automation.LetGetQAed.TestCases.TestAutomationPracticeTest"/>
+<class name="com.test.automation.LetGetQAed.TestCases.NQLBTest"/>
+
+    
+    </classes>
+  </test> <!-- Test -->
+    
+</suite> <!-- Suite -->  

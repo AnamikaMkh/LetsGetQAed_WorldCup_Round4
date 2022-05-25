@@ -1,0 +1,1 @@
+Command for execution via maven : mvn clean test -Dsurefire.suiteXmlFiles=testng2.xml 
